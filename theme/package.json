@@ -1,0 +1,27 @@
+{
+    "name": "Glaucus Theme",
+    "description": "Glaucus dedicated TeamSpeak theme",
+    "version": "1.0.0",
+    "identifier": "net.glaucus.teamspeak.theme",
+    "engines": {
+        "teamspeak": 1
+    },
+    "repository": {
+        "url": "https://github.com/SkyOverWorld/teamspeak",
+        "directory": "theme",
+        "type": "git"
+    },
+    "image": "preview.png",
+    "license": "MIT",
+    "author": "Nurio",
+    "content": {
+        "themes": [
+            {
+                "name": "Theme",
+                "source": "TeamSpeak.css",
+                "image": "TeamSpeak.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}
